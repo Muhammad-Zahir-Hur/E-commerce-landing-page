@@ -1,0 +1,17 @@
+{
+	"name": "tailwind",
+	"version": "1.0.0",
+	"description": "tailwind installation",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+	},
+	"author": "M.law",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.0.23"
+	},
+	"dependencies": {
+		"swiper": "^10.0.4"
+	}
+}
